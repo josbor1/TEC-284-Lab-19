@@ -114,7 +114,7 @@ void setup() {
   leftMotor->setSpeed(150);
 
   // Create the BLE Device
-  BLEDevice::init("Osborne's Race Car");
+  BLEDevice::init("BLE Race Car");
 
   // Create the BLE Server
   pServer = BLEDevice::createServer();
